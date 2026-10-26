@@ -20,7 +20,8 @@
     "make": "electron-forge make",
     "release": "electron-forge release",
     "lint": "oxlint && oxfmt --check",
-    "lint:fix": "oxlint --fix && oxfmt --write"
+    "lint:fix": "oxlint --fix && oxfmt --write",
+    "tmux": "tmux-run org"
   },
   "devDependencies": {
     "@electron-forge/cli": "^8.0.1",
