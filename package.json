@@ -12,13 +12,13 @@
   },
   "main": ".vite/build/main.cjs",
   "scripts": {
-    "start": "electron-forge start",
     "dev:web": "vite --config vite.web.config.mjs",
     "build:web": "vite build --config vite.web.config.mjs",
     "preview:web": "vite preview --config vite.web.config.mjs",
-    "package": "electron-forge package",
-    "make": "electron-forge make",
-    "release": "electron-forge release",
+    "dev:desktop": "electron-forge start",
+    "build:desktop": "electron-forge package",
+    "make:desktop": "electron-forge make",
+    "release:desktop": "electron-forge release",
     "lint": "oxlint && oxfmt --check",
     "lint:fix": "oxlint --fix && oxfmt --write",
     "tmux": "tmux-run org"
